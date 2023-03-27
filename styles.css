@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    margin: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+.bg-wrapper{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 1;
+}
+.logo{
+    height: 45px;
+    width: 167px;
+    margin-top: 25px;
+    margin-left: 46px;
+    margin-bottom: 20px;
+}
+.login-form{
+    background-color: black;
+    margin: auto;
+    width: 450px;
+    height: 660px;
+    border-radius: 5px;
+}
+.form-input{
+    padding:40px 68px 26px 68px;
+}
+.form-input h1{
+    color: white;
+    font-family: sans-serif ;
+    font: size 32px;
+    margin-bottom: 28px;
+}
+.input-field{
+    height: 50px;
+    border-radius: 4px;
+    background-color:#333333;
+    font-size: 16px;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-top: 0px !important;
+    width: 314px;
+    margin-bottom: 16px;
+}
+.button{
+    height: 48px;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: white;
+    border-width: 0px;
+    width: 314px;
+    font-size: 16px;
+    margin-top: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.check{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.label{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-family: roboto;
+    font-weight: 500;
+}
+.login-form-help{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+.link{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-family: roboto;
+    cursor: pointer;
+    text-decoration: none!important;
+    font-weight: 500;
+}
+.login-form-other{
+    padding:40px 68px 0px 68px;
+}
+.login-signup-now{
+    color: #737373;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.login-signup-now a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.login-signup-now p{
+    font-size: 13px;
+    font-family: roboto;
+}
+.login-signup-now button{
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 13px;
+    padding: 0;
+}
+.bottom-footer{
+    background-color: rgba(0, 0, 0, .87);
+    color: white;
+    text-align: center;
+    padding: 0px 260px 0 260px;
+    position: relative;
+    z-index: 2;
+}
+.footer-top{
+    color: #737373;
+    font-size:16px;
+    padding: 30px 0px 0px 0px;
+    font-family: roboto;
+    text-align: left;
+}
+.footer-top-a{
+    color: #737373;
+    font-size: 16px;
+    font-family: roboto;
+}
+.footer-details{
+    font-family: roboto;
+    color: #737373;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.footer-list{
+    color: #737373;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 13px;
+}
+  
